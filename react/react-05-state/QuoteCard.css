@@ -28,3 +28,7 @@
 .QuoteCard figcaption p span {
   color: #eee;
 }
+
+.QuoteCard figcaption p span.is-favorite {
+  color: #ecc94b;
+}
