@@ -29,6 +29,10 @@
   border-radius: 3px;
 }
 
+.QuoteForm input:focus {
+  outline: none;
+}
+
 .QuoteForm button {
   background: #554478;
   border: 1px solid #554478;
@@ -36,4 +40,17 @@
   color: #fff;
   font-size: 1rem;
 }
+
+.QuoteForm .length-ok {
+  border: 1px solid #9ae6b4;
+}
+
+.QuoteForm .length-maximum-reached {
+  border: 1px solid #fc8181;
+}
+
+.QuoteForm .remaining-characters {
+  color: #555;
+}
+
 
