@@ -5,6 +5,8 @@ app.get('/api/employees/:id', (req, res) => {
   // In the query, ? will be replaced by employeeId's value
   connection.query('SELECT * FROM employee WHERE id = ?', [employeeId], (err, results) => {
     if (err) {
+      // When you have more than two cases, it's better to RETURN
+      // than to have too many if-else
       return res.status(500).send(`An error occurred: ${err.message}`);
     }
     // An empty results array means no employee has the requested id
