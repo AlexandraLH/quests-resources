@@ -25,6 +25,7 @@
 .Contact .status .status-text {
   color: #999;
   margin: 0;
+  display: inline-block;
 }
 
 /* Status (rounded&colored indicator) */
