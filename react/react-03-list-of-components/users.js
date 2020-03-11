@@ -1,4 +1,4 @@
-const contacts = [
+const users = [
   {
     name: 'Robert Reyes',
     avatar: 'https://randomuser.me/api/portraits/men/28.jpg',
